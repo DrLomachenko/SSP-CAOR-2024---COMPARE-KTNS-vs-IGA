@@ -19,6 +19,8 @@ def parse_file(filename):
 
 iga_data = parse_file('BRKGA_RESUMO_IGA.txt')
 ktns_data = parse_file('BRKGA_RESUMO_KTNS.txt')
+iga_color = '#7CBD7C'
+ktns_color = 'black'
 
 combined = {}
 for key in set(iga_data) | set(ktns_data):
@@ -28,14 +30,20 @@ for key in set(iga_data) | set(ktns_data):
         combined[key] = (iga_val, ktns_val)
 
 
-iga_values = [v[0] for v in combined.values()]
-ktns_values = [v[1] for v in combined.values()]
-bar_width = 0.2
-indexes = range(len(combined))
+sorted_items = sorted(combined.items(), key=lambda item: item[1][1])  # сортируем по KTNS
+
+iga_values = [v[0] for k, v in sorted_items]
+ktns_values = [v[1] for k, v in sorted_items]
+indexes = range(len(sorted_items))
 
 plt.figure(figsize=(15, 6))
-plt.bar(indexes, iga_values, bar_width, label='IGA', alpha=0.7)
-plt.bar([i + bar_width for i in indexes], ktns_values, bar_width, label='KTNS', alpha=0.7)
+plt.scatter(indexes, iga_values, color=iga_color, label='IGA', marker='o', s=5)
+plt.scatter(indexes, ktns_values, color=ktns_color, label='KTNS', marker='o', s=5)
+for i, (iga, ktns) in enumerate(zip(iga_values, ktns_values)):
+    color = 'red' if iga > ktns else 'green'
+    alpha = 1 if iga > ktns else 0.6
+    linewidth = 1 if iga > ktns else 0.3
+    plt.plot([i, i], [iga, ktns], color=color, linewidth=linewidth, alpha=alpha)
 plt.xlabel('Тестовые случаи (индексы)')
 plt.ylabel('Время выполнения (секунды)')
 plt.title('Общее сравнение времени выполнения IGA и KTNS')
@@ -75,10 +83,10 @@ for group in groups:
 
 x = range(len(groups))
 
-
+bar_width = 0.05
 plt.figure(figsize=(12, 6))
-plt.bar(x, avg_iga, bar_width, label='IGA - Среднее')
-plt.bar([i + bar_width for i in x], avg_ktns, bar_width, label='KTNS - Среднее')
+plt.bar(x, avg_iga, bar_width, label='IGA - Среднее', color = iga_color)
+plt.bar([i + bar_width for i in x], avg_ktns, bar_width, label='KTNS - Среднее', color = ktns_color)
 plt.xticks([i + bar_width / 2 for i in x], groups)
 plt.xlabel('Группа тестов')
 plt.ylabel('Среднее время выполнения (секунды)')
@@ -90,8 +98,8 @@ plt.show()
 
 
 plt.figure(figsize=(12, 6))
-plt.bar(x, max_iga, bar_width, label='IGA - Макс')
-plt.bar([i + bar_width for i in x], max_ktns, bar_width, label='KTNS - Макс')
+plt.bar(x, max_iga, bar_width, label='IGA - Макс', color = iga_color)
+plt.bar([i + bar_width for i in x], max_ktns, bar_width, label='KTNS - Макс', color = ktns_color)
 plt.xticks([i + bar_width / 2 for i in x], groups)
 plt.xlabel('Группа тестов')
 plt.ylabel('Максимальное время выполнения (секунды)')
@@ -104,9 +112,9 @@ plt.show()
 
 plt.figure(figsize=(12, 6))
 plt.bar(x, [max_ - min_ for max_, min_ in zip(max_iga, min_iga)],
-        bar_width, bottom=min_iga, label='IGA - Диапазон')
+        bar_width, bottom=min_iga, label='IGA - Диапазон', color = iga_color)
 plt.bar([i + bar_width for i in x], [max_ - min_ for max_, min_ in zip(max_ktns, min_ktns)],
-        bar_width, bottom=min_ktns, label='KTNS - Диапазон')
+        bar_width, bottom=min_ktns, label='KTNS - Диапазон', color = ktns_color)
 plt.xticks([i + bar_width / 2 for i in x], groups)
 plt.xlabel('Группа тестов')
 plt.ylabel('Диапазон времени выполнения (секунды)')
