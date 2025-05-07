@@ -1,0 +1,63 @@
+3.42001e+09 1e+06 1063 3420006219 19.2153 2 3653 3653 9.64729e-06 0.000117237 0.00168025 70.3522 16.352 313.048
+4.65042 4.10266 4.06737 4.14631 4.89047 4.1175 4.88522 4.1678 4.8877 2.97929 4.22725 4.38276 4.00704 4.83571 4.90372 4.52282 4.18221 4.05423 4.22373 4.43447 4.36055 1.30406 4.64256 4.47564 4.1165 4.31174 4.21125 4.31339 4.8299 4.00347 4.40773 4.45264 4.58572 4.08357 4.61142 4.01829 4.90486 4.38375 4.07426 4.23184 4.0693 4.08225 4.09809 4.92178 4.06596 4.25173 4.63409 4.45753 4.92126 4.98745 4.56503 4.05373 4.5331 4.67506 4.60732 4.24537 4.67034 4.85004 4.39099 4.62835 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 1e+06
+
+Tempo de execução: 19.2153 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 3653
+Makespan ao final da 1ª geração: 3653
+
+
+Buscas Locais
+IBS
+Tempo médio: 9.64729e-06
+Número melhorias: 1763
+Melhora média: 70.3522
+Execuções: 9495
+EFB
+Tempo médio: 0.000117237
+Número melhorias: 2452
+Melhora média: 16.352
+Execuções: 9482
+ONB
+Tempo médio: 0.00168025
+Número melhorias: 2973
+Melhora média: 313.048
+Execuções: 9468
+
+Melhor solução
+Máquina 1: 21 
+Trocas: 22
+10000000 
+Tempo de processamento: 157
+Máquina 2: 9 
+Trocas: 23
+10000000 
+Tempo de processamento: 166
+Máquina 3: 29 12 35 51 17 44 2 40 38 41 33 42 1 24 5 3 7 16 26 18 10 39 55 45 25 27 20 11 37 58 30 19 31 47 23 15 52 50 32 54 34 59 46 22 0 56 53 28 13 57 6 8 4 14 36 48 43 49 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 1063
+Total Flow Time 3420006219
+Soma do completion time 1.00032e+06

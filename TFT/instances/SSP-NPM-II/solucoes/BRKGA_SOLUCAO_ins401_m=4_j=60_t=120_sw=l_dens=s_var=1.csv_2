@@ -1,0 +1,67 @@
+909 461 405 909 32.6577 163 2086 1700 0.000147309 0.00186626 0.000427005 25.1284 18.0096 6.4974
+2.82046 1.18776 2.65407 3.77593 4.18559 1.32182 4.96468 2.57423 4.90226 4.24962 4.04054 3.37583 3.55164 4.42113 4.48277 1.10167 3.27091 2.90974 4.26155 3.30279 3.17987 1.68115 1.54585 3.16411 3.02616 2.78875 4.00362 3.45207 1.16348 1.82799 2.17325 1.75033 3.37518 1.86667 1.05169 2.41303 4.74171 4.43181 4.77002 3.72496 1.1639 2.00995 1.25011 4.26513 4.75612 4.13077 2.5407 3.63924 2.59413 2.01118 3.92464 3.44173 4.86885 3.11304 3.6073 1.94208 2.60235 1.67301 4.05141 2.95945 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 461
+
+Tempo de execução: 32.6577 segundos 
+
+
+Melhor geração: 163
+
+Solução inicial: 2086
+Makespan ao final da 1ª geração: 1700
+
+
+Buscas Locais
+IBS
+Tempo médio: 0.000147309
+Número melhorias: 9766
+Melhora média: 25.1284
+Execuções: 13797
+EFB
+Tempo médio: 0.00186626
+Número melhorias: 8157
+Melhora média: 18.0096
+Execuções: 12340
+ONB
+Tempo médio: 0.000427005
+Número melhorias: 5390
+Melhora média: 6.4974
+Execuções: 11276
+
+Melhor solução
+Máquina 1: 34 15 28 40 1 42 5 22 57 21 31 29 33 55 
+Trocas: 101
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 447
+Máquina 2: 41 49 30 35 46 7 48 56 2 25 0 17 59 
+Trocas: 104
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 455
+Máquina 3: 24 53 23 20 16 19 32 11 51 27 12 54 47 39 3 50 
+Trocas: 104
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 461
+Máquina 4: 26 10 58 45 4 9 18 43 13 37 14 36 44 38 52 8 6 
+Trocas: 96
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 329
+Total de gerações: 1000
+Total de trocas: 405
+Total Flow Time 909
+Soma do completion time 1692

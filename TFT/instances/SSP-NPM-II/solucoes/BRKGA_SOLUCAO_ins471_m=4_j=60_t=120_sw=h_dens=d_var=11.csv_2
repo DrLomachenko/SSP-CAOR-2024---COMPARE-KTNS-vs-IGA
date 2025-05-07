@@ -1,0 +1,67 @@
+3.92e+09 5280 1147 3920002750 50.3819 2 3564 3564 1.58525e-05 0.000447663 0.00278768 64.5264 15.6731 179.88
+2.80873 2.82268 4.12687 4.54779 2.82852 1.4137 4.71201 4.45487 4.00244 4.9637 4.02283 4.93992 1.39428 2.29828 4.89535 4.04587 4.72634 4.21665 2.45238 1.43332 4.34064 4.63006 4.40238 4.00972 4.07818 2.03243 2.32094 4.83101 1.6242 3.34327 4.90361 4.89363 4.42355 2.13703 1.99043 2.10109 4.98835 4.90649 2.23809 4.09326 1.52809 2.66537 4.81506 4.70571 4.81734 4.19781 4.69579 4.58516 4.04809 1.31917 4.52258 1.90154 2.09962 2.91838 4.19764 4.19521 2.67295 2.57848 1.22496 2.16049 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 5280
+
+Tempo de execução: 50.3819 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 3564
+Makespan ao final da 1ª geração: 3564
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.58525e-05
+Número melhorias: 3277
+Melhora média: 64.5264
+Execuções: 28562
+EFB
+Tempo médio: 0.000447663
+Número melhorias: 24630
+Melhora média: 15.6731
+Execuções: 28428
+ONB
+Tempo médio: 0.00278768
+Número melhorias: 10493
+Melhora média: 179.88
+Execuções: 12238
+
+Melhor solução
+Máquina 1: 58 49 12 5 19 40 28 51 34 
+Trocas: 120
+10000000 10000000 0 0 0 0 0 0 0 
+Tempo de processamento: 892
+Máquina 2: 25 52 35 33 59 38 13 26 18 57 41 56 0 1 4 53 
+Trocas: 266
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1952
+Máquina 3: 29 
+Trocas: 32
+10000000 
+Tempo de processamento: 257
+Máquina 4: 8 23 10 15 48 24 39 2 55 54 45 17 20 22 32 7 50 3 47 21 46 43 6 16 42 44 27 31 14 30 37 11 9 36 
+Trocas: 729
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 5280
+Total de gerações: 1000
+Total de trocas: 1147
+Total Flow Time 3920002750
+Soma do completion time 8381

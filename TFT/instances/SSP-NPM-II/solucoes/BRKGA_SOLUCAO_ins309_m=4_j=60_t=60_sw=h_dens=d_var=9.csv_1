@@ -1,0 +1,63 @@
+3.66e+09 1e+06 645 3660003121 8.02735 2 2799 2799 1.25459e-05 6.07247e-05 0.000565953 98.7358 18.7094 274.076
+2.41331 2.80381 4.30759 4.14878 2.85816 2.79702 4.64554 4.95392 2.23577 4.22552 4.27482 3.64546 3.96674 4.67996 2.78018 2.56651 2.22404 2.14838 3.71013 4.68924 2.6006 2.32694 3.10625 2.67156 2.48888 2.44613 3.39202 3.62899 2.14144 3.2151 3.58049 3.5495 4.10867 4.1603 2.92202 2.5172 2.31832 2.62578 4.58008 2.64254 4.46105 2.74456 2.04162 2.33816 2.80162 2.73543 3.27825 2.67812 2.28351 2.28724 3.10664 4.77142 2.23356 2.79164 4.00594 2.99451 2.14313 2.32361 2.28403 4.91634 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 60
+
+
+Makespan: 1e+06
+
+Tempo de execução: 8.02735 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 2799
+Makespan ao final da 1ª geração: 2799
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.25459e-05
+Número melhorias: 1866
+Melhora média: 98.7358
+Execuções: 9719
+EFB
+Tempo médio: 6.07247e-05
+Número melhorias: 2113
+Melhora média: 18.7094
+Execuções: 9622
+ONB
+Tempo médio: 0.000565953
+Número melhorias: 3424
+Melhora média: 274.076
+Execuções: 9464
+
+Melhor solução
+Máquina 1: 42 28 56 17 16 52 8 48 58 49 36 57 21 43 0 25 24 35 15 20 37 39 23 47 45 41 14 53 5 44 1 4 34 55 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 2: 22 50 29 46 26 31 30 27 11 18 12 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 3: 54 32 3 33 9 10 2 40 38 6 13 19 51 59 7 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 645
+Total Flow Time 3660003121
+Soma do completion time 3e+06

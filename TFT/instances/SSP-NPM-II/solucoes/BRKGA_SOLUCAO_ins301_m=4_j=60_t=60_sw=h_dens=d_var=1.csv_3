@@ -1,0 +1,67 @@
+3.36001e+09 3509 623 3360005316 42.3874 2 2945 2945 1.51061e-05 0.000137767 0.0030385 67.6875 11.5101 277.144
+4.80914 4.6472 4.79373 4.9292 4.8447 4.4165 4.30022 4.34472 4.65064 4.66392 4.28463 4.62297 4.89965 1.20247 4.42021 4.12866 4.75257 4.98408 4.64293 4.06334 4.52257 4.5428 4.74044 4.03295 4.74727 4.60233 4.0781 3.08421 4.60041 4.92251 4.96512 4.60908 4.81857 4.30405 4.80331 4.71314 4.61073 4.76212 4.57186 4.71992 4.97292 4.41756 4.13907 4.36796 4.0229 4.54186 4.26504 4.61164 4.99726 4.27172 4.54976 4.1228 4.8309 4.18985 4.11734 4.08483 4.76712 4.04764 2.73821 4.24694 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 60
+
+
+Makespan: 3509
+
+Tempo de execução: 42.3874 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 2945
+Makespan ao final da 1ª geração: 2945
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.51061e-05
+Número melhorias: 4134
+Melhora média: 67.6875
+Execuções: 16804
+EFB
+Tempo médio: 0.000137767
+Número melhorias: 9293
+Melhora média: 11.5101
+Execuções: 16302
+ONB
+Tempo médio: 0.0030385
+Número melhorias: 10168
+Melhora média: 277.144
+Execuções: 12099
+
+Melhor solução
+Máquina 1: 13 
+Trocas: 22
+10000000 
+Tempo de processamento: 157
+Máquina 2: 58 
+Trocas: 28
+10000000 
+Tempo de processamento: 197
+Máquina 3: 27 
+Trocas: 33
+10000000 
+Tempo de processamento: 239
+Máquina 4: 44 23 57 19 26 55 54 51 15 42 53 59 46 49 10 6 33 7 43 5 41 14 20 45 21 50 38 28 25 31 36 47 11 18 1 8 9 35 39 22 24 16 37 56 2 34 0 32 52 4 12 29 3 30 40 17 48 
+Trocas: 540
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 3509
+Total de gerações: 1000
+Total de trocas: 623
+Total Flow Time 3360005316
+Soma do completion time 4102

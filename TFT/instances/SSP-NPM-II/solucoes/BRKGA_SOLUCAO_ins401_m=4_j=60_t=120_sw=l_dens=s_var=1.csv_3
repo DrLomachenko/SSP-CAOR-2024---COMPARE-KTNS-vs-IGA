@@ -1,0 +1,67 @@
+909 472 406 909 35.0699 219 2086 1830 0.000159434 0.00212616 0.000397336 33.9523 17.5479 6.87628
+2.72729 1.14108 2.44767 4.78272 4.30621 1.28922 2.90364 2.52231 4.90837 4.18407 4.12006 3.28476 3.31364 4.41012 4.54986 1.16297 3.19027 2.85042 4.2463 3.30251 3.15812 1.60475 1.59009 3.21364 3.02751 2.5451 4.00514 3.4196 1.16792 1.70506 2.06883 1.63482 3.23537 1.75225 1.00078 2.21961 4.56213 4.40171 4.73161 3.82188 1.06615 2.09413 1.18055 4.24114 3.8161 4.01621 1.29739 3.78586 2.42135 2.18021 3.87271 3.4604 4.71292 3.00913 3.73858 4.95976 2.4602 1.54662 4.25336 2.93954 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 472
+
+Tempo de execução: 35.0699 segundos 
+
+
+Melhor geração: 219
+
+Solução inicial: 2086
+Makespan ao final da 1ª geração: 1830
+
+
+Buscas Locais
+IBS
+Tempo médio: 0.000159434
+Número melhorias: 10063
+Melhora média: 33.9523
+Execuções: 13756
+EFB
+Tempo médio: 0.00212616
+Número melhorias: 10076
+Melhora média: 17.5479
+Execuções: 12215
+ONB
+Tempo médio: 0.000397336
+Número melhorias: 3136
+Melhora média: 6.87628
+Execuções: 10755
+
+Melhor solução
+Máquina 1: 34 40 1 15 28 42 5 46 57 22 21 31 29 33 
+Trocas: 103
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 450
+Máquina 2: 30 41 49 35 48 2 56 7 25 0 17 6 59 
+Trocas: 105
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 463
+Máquina 3: 53 24 20 16 23 32 11 19 12 27 51 54 47 44 39 50 
+Trocas: 107
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 472
+Máquina 4: 26 45 10 9 43 18 58 4 37 13 14 36 52 38 3 8 55 
+Trocas: 91
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 315
+Total de gerações: 1000
+Total de trocas: 406
+Total Flow Time 909
+Soma do completion time 1700

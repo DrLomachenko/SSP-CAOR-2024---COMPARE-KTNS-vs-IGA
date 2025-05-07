@@ -1,0 +1,63 @@
+3.42001e+09 1e+06 1069 3420006219 18.0246 2 3653 3653 9.50054e-06 0.000116536 0.00158903 70.9671 15.7493 345.465
+4.6974 4.08105 4.06459 4.14631 3.30618 4.14584 4.77611 4.12007 4.83794 4.92205 4.20996 4.25076 4.01155 4.76125 4.85778 4.59087 4.16831 4.10848 4.22373 4.62402 4.282 1.55491 4.69125 4.65975 4.08427 4.19706 4.27424 4.21819 4.69642 4.0247 4.32033 4.5495 4.58572 4.0702 4.72659 4.06352 4.84974 4.30226 4.09821 4.18132 4.08803 4.08948 4.08209 4.98701 4.08403 4.25955 4.75617 4.31294 4.96976 4.95275 4.34941 4.06673 4.4608 4.71169 4.6825 4.26757 4.67038 4.83223 4.28348 4.66933 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 1e+06
+
+Tempo de execução: 18.0246 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 3653
+Makespan ao final da 1ª geração: 3653
+
+
+Buscas Locais
+IBS
+Tempo médio: 9.50054e-06
+Número melhorias: 1640
+Melhora média: 70.9671
+Execuções: 9318
+EFB
+Tempo médio: 0.000116536
+Número melhorias: 2218
+Melhora média: 15.7493
+Execuções: 9306
+ONB
+Tempo médio: 0.00158903
+Número melhorias: 2860
+Melhora média: 345.465
+Execuções: 9292
+
+Melhor solução
+Máquina 1: 21 
+Trocas: 22
+10000000 
+Tempo de processamento: 157
+Máquina 2: 4 
+Trocas: 10000000
+10000000 
+Tempo de processamento: 1e+06
+Máquina 3: 12 29 35 2 51 33 1 42 44 24 40 41 38 17 7 5 3 16 39 25 10 27 18 11 45 55 26 20 58 37 47 30 50 52 31 32 15 19 23 59 56 54 22 28 0 53 34 46 13 6 57 8 36 14 9 49 48 43 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 1069
+Total Flow Time 3420006219
+Soma do completion time 2.00016e+06

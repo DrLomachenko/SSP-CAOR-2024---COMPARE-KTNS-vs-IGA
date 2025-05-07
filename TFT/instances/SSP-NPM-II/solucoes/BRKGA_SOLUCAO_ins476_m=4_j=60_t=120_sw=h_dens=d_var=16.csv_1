@@ -1,0 +1,63 @@
+3.42e+09 1e+06 1166 3420002261 9.66931 2 3396 3396 9.92344e-06 8.46566e-05 0.000759434 87.6655 14.8536 221.327
+4.25923 4.87254 4.48838 4.67431 2.29466 4.37809 4.62108 2.57774 4.7023 4.36083 4.54491 4.74181 2.75698 2.22962 4.3663 4.99356 4.06636 2.625 4.08668 4.11873 4.21825 2.22403 4.8034 2.55488 2.9245 4.88636 4.33446 2.39613 4.72776 2.67987 2.94012 2.23637 4.53452 4.42706 4.82356 4.10778 2.81462 4.84394 4.06716 2.24876 2.33224 4.58047 4.70808 2.04461 2.9015 2.40843 2.2991 2.01722 3.29342 2.74028 4.87179 4.65847 2.40968 2.89193 2.84888 2.502 2.94109 4.36056 2.49687 4.0632 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 1e+06
+
+Tempo de execução: 9.66931 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 3396
+Makespan ao final da 1ª geração: 3396
+
+
+Buscas Locais
+IBS
+Tempo médio: 9.92344e-06
+Número melhorias: 1776
+Melhora média: 87.6655
+Execuções: 9221
+EFB
+Tempo médio: 8.46566e-05
+Número melhorias: 1571
+Melhora média: 14.8536
+Execuções: 9211
+ONB
+Tempo médio: 0.000759434
+Número melhorias: 2177
+Melhora média: 221.327
+Execuções: 9194
+
+Melhor solução
+Máquina 1: 47 43 21 13 31 39 4 46 40 27 45 52 58 55 23 7 17 29 49 12 36 54 53 44 24 30 56 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 2: 48 
+Trocas: 24
+10000000 
+Tempo de processamento: 197
+Máquina 3: 59 16 38 18 35 19 20 0 26 57 9 14 5 33 2 32 10 41 6 51 3 8 42 28 11 22 34 37 50 1 25 15 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 1166
+Total Flow Time 3420002261
+Soma do completion time 2.0002e+06

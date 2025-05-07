@@ -1,0 +1,63 @@
+3.66e+09 1e+06 658 3660003121 8.27927 2 2799 2799 1.26489e-05 6.26317e-05 0.000570402 95.5617 18.7968 280.113
+2.24752 2.85712 4.3751 4.32172 2.9828 2.93529 4.57307 4.80643 2.08871 4.36793 4.47146 3.47428 3.86402 4.61044 2.89049 2.45594 2.10909 2.06738 3.72487 4.63408 2.61036 2.29749 3.07247 2.66798 2.61267 2.29596 3.41442 3.43209 2.04377 3.07582 3.42568 3.41685 4.06198 4.42595 2.94642 2.56622 2.22474 2.31809 4.51326 2.47242 4.55903 2.94106 2.04437 2.27886 2.84928 2.79737 3.40364 2.77171 2.09484 2.13321 3.06199 4.75775 2.05902 2.82757 4.22603 2.99786 2.10105 2.1783 2.1118 4.77503 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 60
+
+
+Makespan: 1e+06
+
+Tempo de execução: 8.27927 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 2799
+Makespan ao final da 1ª geração: 2799
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.26489e-05
+Número melhorias: 2019
+Melhora média: 95.5617
+Execuções: 10020
+EFB
+Tempo médio: 6.26317e-05
+Número melhorias: 2279
+Melhora média: 18.7968
+Execuções: 9922
+ONB
+Tempo médio: 0.000570402
+Número melhorias: 3575
+Melhora média: 280.113
+Execuções: 9760
+
+Melhor solução
+Máquina 1: 28 42 52 17 8 48 56 16 58 49 57 36 0 43 25 21 37 15 39 35 20 24 23 47 45 53 44 1 14 5 41 34 4 55 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 2: 50 22 29 46 26 31 30 27 11 18 12 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 3: 32 54 3 9 2 33 10 38 40 6 13 19 51 59 7 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 658
+Total Flow Time 3660003121
+Soma do completion time 3e+06

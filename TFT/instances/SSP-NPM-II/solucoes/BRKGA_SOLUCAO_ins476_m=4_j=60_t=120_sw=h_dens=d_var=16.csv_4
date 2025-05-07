@@ -1,0 +1,63 @@
+3.42e+09 1e+06 1132 3420002255 9.80922 2 3396 3396 9.66975e-06 8.53756e-05 0.00077192 76.1778 14.3362 222.745
+4.29469 3.23102 4.40905 4.68693 2.3064 4.47761 4.48195 2.39903 4.67499 4.2884 4.39822 4.86392 2.70693 2.0896 4.31369 4.95732 4.00484 2.40171 4.28361 4.01277 4.26215 2.08 4.84762 2.39586 2.8853 4.88636 4.37132 2.1487 4.57727 2.40485 2.80003 2.12148 4.41248 4.38205 4.75489 4.28082 2.6429 4.74238 4.23029 2.16809 2.15914 4.5356 4.57739 2.0612 4.66677 2.34915 2.34579 2.10134 2.90859 2.62461 4.87179 4.53232 2.37275 2.71587 2.79461 2.39713 2.88614 4.37902 2.35013 4.07047 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 1e+06
+
+Tempo de execução: 9.80922 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 3396
+Makespan ao final da 1ª geração: 3396
+
+
+Buscas Locais
+IBS
+Tempo médio: 9.66975e-06
+Número melhorias: 1772
+Melhora média: 76.1778
+Execuções: 9299
+EFB
+Tempo médio: 8.53756e-05
+Número melhorias: 1654
+Melhora média: 14.3362
+Execuções: 9292
+ONB
+Tempo médio: 0.00077192
+Número melhorias: 2255
+Melhora média: 222.745
+Execuções: 9282
+
+Melhor solução
+Máquina 1: 43 21 13 47 31 27 40 39 4 46 45 58 52 23 55 7 17 29 49 36 12 53 54 30 24 56 48 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 2: 1 
+Trocas: 10000000
+10000000 
+Tempo de processamento: 1e+06
+Máquina 3: 16 19 59 38 20 35 18 9 0 14 26 57 33 10 2 32 5 6 51 41 28 42 44 8 3 37 34 22 11 50 25 15 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 1132
+Total Flow Time 3420002255
+Soma do completion time 3e+06

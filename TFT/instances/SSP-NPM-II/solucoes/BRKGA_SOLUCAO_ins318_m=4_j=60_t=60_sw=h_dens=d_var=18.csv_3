@@ -1,0 +1,63 @@
+3.42e+09 1e+06 664 3420002129 9.45128 2 2439 2439 1.43591e-05 9.47324e-05 0.000653452 96.0491 33.9218 323.299
+3.9393 4.98961 4.67767 3.92147 4.82332 3.34957 4.4397 3.35346 4.7089 4.91551 4.58055 4.34685 4.56133 4.70825 3.86072 4.05917 3.56483 4.27313 3.33151 3.44014 4.85783 3.42575 4.48585 3.79692 3.55076 4.76368 3.65212 2.98953 4.69835 4.8208 4.96947 3.94749 4.05235 4.71881 3.00208 4.21608 4.42014 3.52515 4.20876 3.34716 4.7002 3.08553 3.01302 3.72716 4.25148 3.49593 4.54886 3.94691 3.48103 3.13562 3.97507 4.00156 3.66438 3.39019 4.91304 3.35151 4.95289 3.59151 4.9698 3.51545 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 60
+
+
+Makespan: 1e+06
+
+Tempo de execução: 9.45128 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 2439
+Makespan ao final da 1ª geração: 2439
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.43591e-05
+Número melhorias: 2629
+Melhora média: 96.0491
+Execuções: 10065
+EFB
+Tempo médio: 9.47324e-05
+Número melhorias: 3401
+Melhora média: 33.9218
+Execuções: 9946
+ONB
+Tempo médio: 0.000653452
+Número melhorias: 3518
+Melhora média: 323.299
+Execuções: 9734
+
+Melhor solução
+Máquina 1: 27 
+Trocas: 10000000
+10000000 
+Tempo de processamento: 1e+06
+Máquina 2: 34 42 41 49 18 39 5 55 7 53 21 19 48 45 59 37 24 16 57 26 52 43 23 14 3 0 47 31 50 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 3: 51 32 15 38 35 44 17 11 36 6 22 46 12 10 2 28 40 13 8 33 25 29 4 20 54 9 56 30 58 1 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 664
+Total Flow Time 3420002129
+Soma do completion time 3e+06

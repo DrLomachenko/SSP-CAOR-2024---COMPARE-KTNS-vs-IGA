@@ -1,0 +1,63 @@
+3.42e+09 1e+06 682 3420002126 10.6811 2 2439 2439 1.63569e-05 0.000104787 0.00075588 103.672 34.2044 328.915
+3.84083 4.94313 4.2281 3.73684 4.63002 3.12095 4.11698 3.36955 4.53549 4.79793 4.20545 4.19798 4.29361 4.40214 3.72837 4.08257 3.51239 4.14244 3.05512 3.31457 4.7385 3.16778 4.17779 3.81057 3.54194 4.53455 3.40498 4.61231 4.39059 4.59026 4.85913 3.98338 4.0468 4.40616 3.01388 4.03166 4.14484 3.37603 4.03478 3.09767 4.27088 3.09378 3.00505 3.60233 4.05322 3.15498 4.10238 3.86141 3.18451 3.09127 1.92024 4.00631 3.65261 3.30585 3.94408 3.22545 4.86421 3.45545 4.93515 3.37444 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 60
+
+
+Makespan: 1e+06
+
+Tempo de execução: 10.6811 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 2439
+Makespan ao final da 1ª geração: 2439
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.63569e-05
+Número melhorias: 3091
+Melhora média: 103.672
+Execuções: 10024
+EFB
+Tempo médio: 0.000104787
+Número melhorias: 3801
+Melhora média: 34.2044
+Execuções: 9909
+ONB
+Tempo médio: 0.00075588
+Número melhorias: 4013
+Melhora média: 328.915
+Execuções: 9704
+
+Melhor solução
+Máquina 1: 50 
+Trocas: 23
+10000000 
+Tempo de processamento: 192
+Máquina 2: 42 34 18 49 41 39 5 45 21 48 55 53 19 7 59 37 26 57 16 24 43 52 14 3 23 0 47 54 31 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 3: 51 35 38 32 44 15 46 6 17 36 22 11 10 2 40 12 28 13 33 25 8 29 27 4 20 9 30 56 58 1 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 682
+Total Flow Time 3420002126
+Soma do completion time 2.00019e+06

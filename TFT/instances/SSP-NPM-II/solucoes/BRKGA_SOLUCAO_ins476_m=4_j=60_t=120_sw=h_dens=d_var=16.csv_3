@@ -1,0 +1,63 @@
+3.42e+09 1e+06 1141 3420002255 10.0345 2 3396 3396 9.07537e-06 8.43509e-05 0.000770391 67.5102 14.2485 217.361
+4.25371 3.75773 4.44686 4.85042 2.29466 4.38145 4.58282 2.39903 4.75923 4.26699 4.37042 4.86246 2.71341 2.20892 4.30343 4.99356 4.20173 2.4837 4.15929 4.10606 4.21825 2.02698 4.8532 2.39031 2.9245 4.97009 4.33446 2.22886 4.71065 2.42111 2.88168 2.06376 4.53452 4.37584 4.85456 4.04922 2.64966 4.85652 4.083 2.23748 2.28666 4.67377 4.6767 2.01324 4.78931 2.24537 2.26112 2.01722 2.93738 2.56023 4.87179 4.54155 2.35709 2.78059 2.72169 2.39919 2.89724 4.22573 2.41618 4.21466 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 1e+06
+
+Tempo de execução: 10.0345 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 3396
+Makespan ao final da 1ª geração: 3396
+
+
+Buscas Locais
+IBS
+Tempo médio: 9.07537e-06
+Número melhorias: 1766
+Melhora média: 67.5102
+Execuções: 9619
+EFB
+Tempo médio: 8.43509e-05
+Número melhorias: 1630
+Melhora média: 14.2485
+Execuções: 9606
+ONB
+Tempo médio: 0.000770391
+Número melhorias: 2286
+Melhora média: 217.361
+Execuções: 9580
+
+Melhor solução
+Máquina 1: 43 47 21 31 13 27 39 45 46 40 4 52 23 7 55 58 29 17 49 36 12 54 53 30 56 24 48 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 2: 1 
+Trocas: 10000000
+10000000 
+Tempo de processamento: 1e+06
+Máquina 3: 35 38 19 18 16 59 20 57 0 9 14 26 10 33 5 2 32 51 6 41 42 28 8 44 3 22 34 37 11 50 25 15 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 1141
+Total Flow Time 3420002255
+Soma do completion time 3e+06

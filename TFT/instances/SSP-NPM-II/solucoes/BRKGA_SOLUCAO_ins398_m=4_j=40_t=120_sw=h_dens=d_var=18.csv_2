@@ -1,0 +1,67 @@
+2.21e+09 3327 773 2210002194 36.5027 2 1325 1325 1.01746e-05 0.000244379 0.00206368 55.1266 8.14739 179.128
+3.09617 1.23508 3.64237 3.114 3.27487 4.40173 3.2029 3.14397 4.59026 3.17808 4.90294 3.45931 4.97281 3.12845 3.78108 3.68814 3.73994 3.66831 3.52083 3.51747 3.92011 3.79312 3.86972 3.79773 3.85149 3.13751 4.08795 3.22388 3.11066 3.8997 3.62176 3.86813 3.68274 2.94776 3.13341 3.66028 4.43298 3.41326 3.42046 3.7059 
+Parametros do Algoritmo
+Tamanho da população: 400
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 40
+Máquinas: 4
+Ferramentas: 120
+
+
+Makespan: 3327
+
+Tempo de execução: 36.5027 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 1325
+Makespan ao final da 1ª geração: 1325
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.01746e-05
+Número melhorias: 2598
+Melhora média: 55.1266
+Execuções: 22627
+EFB
+Tempo médio: 0.000244379
+Número melhorias: 19146
+Melhora média: 8.14739
+Execuções: 22580
+ONB
+Tempo médio: 0.00206368
+Número melhorias: 12403
+Melhora média: 179.128
+Execuções: 14143
+
+Melhor solução
+Máquina 1: 1 
+Trocas: 20
+10000000 
+Tempo de processamento: 141
+Máquina 2: 33 
+Trocas: 30
+10000000 
+Tempo de processamento: 213
+Máquina 3: 0 28 3 13 34 25 7 9 6 27 4 37 38 11 19 18 30 2 35 17 32 15 39 16 14 21 23 24 31 22 29 20 
+Trocas: 527
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 3327
+Máquina 4: 26 5 36 8 10 12 
+Trocas: 196
+10000000 10000000 0 0 0 0 
+Tempo de processamento: 1411
+Total de gerações: 1000
+Total de trocas: 773
+Total Flow Time 2210002194
+Soma do completion time 5092

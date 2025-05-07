@@ -1,0 +1,75 @@
+804 871 638 804 77.5625 96 2509 1863 0.000194724 0.00232821 0.00152457 100.389 52.2568 58.1182
+6.76624 4.82613 5.7627 3.94467 5.93573 6.44191 1.3426 2.3186 3.15081 6.53287 4.12362 6.34799 3.34414 4.08357 1.68136 3.06257 4.96095 6.02147 3.23594 5.65185 5.03003 5.16801 2.97464 3.10522 1.44974 5.04141 6.54704 2.36156 5.84265 1.30197 6.05428 1.55193 1.70404 4.32874 3.23421 1.74594 4.08366 5.43974 4.45512 1.3207 2.48594 6.82945 2.66541 2.03409 2.19863 6.17473 5.42877 4.11308 5.30263 6.12466 6.18899 6.05192 4.06369 2.40985 4.0222 2.72808 5.03686 4.36898 5.64667 3.11105 1.52055 1.01348 5.05628 2.05145 3.96204 4.16802 3.34403 2.47245 6.39024 1.12113 3.07631 4.68998 1.46532 4.8729 3.35613 2.24489 3.26201 3.66957 2.02096 1.15085 
+Parametros do Algoritmo
+Tamanho da população: 800
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 80
+Máquinas: 6
+Ferramentas: 120
+
+
+Makespan: 871
+
+Tempo de execução: 77.5625 segundos 
+
+
+Melhor geração: 96
+
+Solução inicial: 2509
+Makespan ao final da 1ª geração: 1863
+
+
+Buscas Locais
+IBS
+Tempo médio: 0.000194724
+Número melhorias: 14161
+Melhora média: 100.389
+Execuções: 21571
+EFB
+Tempo médio: 0.00232821
+Número melhorias: 14284
+Melhora média: 52.2568
+Execuções: 18546
+ONB
+Tempo médio: 0.00152457
+Número melhorias: 13336
+Melhora média: 58.1182
+Execuções: 15953
+
+Melhor solução
+Máquina 1: 61 69 79 29 39 6 24 72 60 31 14 32 35 
+Trocas: 121
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 871
+Máquina 2: 78 43 63 44 75 7 27 53 67 40 42 55 22 
+Trocas: 114
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 709
+Máquina 3: 15 70 23 59 8 34 18 76 66 12 74 77 3 64 
+Trocas: 95
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 692
+Máquina 4: 54 52 13 36 47 10 65 33 57 38 71 1 73 16 
+Trocas: 89
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 653
+Máquina 5: 20 56 25 62 21 48 46 37 58 19 2 28 4 
+Trocas: 118
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 736
+Máquina 6: 17 51 30 49 45 50 11 68 5 9 26 0 41 
+Trocas: 101
+0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 629
+Total de gerações: 1000
+Total de trocas: 638
+Total Flow Time 804
+Soma do completion time 4290

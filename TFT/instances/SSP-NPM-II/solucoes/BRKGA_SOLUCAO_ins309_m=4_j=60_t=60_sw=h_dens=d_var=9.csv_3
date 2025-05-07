@@ -1,0 +1,63 @@
+3.66e+09 1e+06 667 3660003121 8.16191 2 2799 2799 1.23729e-05 6.0444e-05 0.000561672 93.4834 18.9453 281.53
+2.5359 2.82848 4.29488 4.16251 2.85974 2.84255 4.67138 4.95885 2.27672 4.30065 4.164 3.9758 3.99636 4.73442 2.83937 2.71081 2.24211 2.25436 3.99044 4.7808 2.63292 2.52313 3.01222 2.77222 2.57531 2.56687 3.83276 3.88038 2.06564 3.11503 3.64141 3.58789 4.13445 4.43392 2.90331 2.65435 2.46602 2.63602 4.66136 2.69212 4.62898 2.84654 2.08053 2.47663 2.7896 2.74842 3.29565 2.75851 2.09285 2.36965 3.08228 4.84893 2.16625 2.84914 4.0978 2.87658 2.29399 2.32361 2.44355 4.86264 
+Parametros do Algoritmo
+Tamanho da população: 600
+Fração da população para elite: 0.25
+Fração da população trocada por mutantes: 0.1
+Probabilidade de se herdar um alelo da elite: 0.7
+Populações independentes: 1
+Threads para decodificacao paralela: 1
+Quantidade máxima de gerações: 1000
+
+
+Parâmetros da instância
+Tarefas: 60
+Máquinas: 4
+Ferramentas: 60
+
+
+Makespan: 1e+06
+
+Tempo de execução: 8.16191 segundos 
+
+
+Melhor geração: 2
+
+Solução inicial: 2799
+Makespan ao final da 1ª geração: 2799
+
+
+Buscas Locais
+IBS
+Tempo médio: 1.23729e-05
+Número melhorias: 2019
+Melhora média: 93.4834
+Execuções: 9984
+EFB
+Tempo médio: 6.0444e-05
+Número melhorias: 2214
+Melhora média: 18.9453
+Execuções: 9887
+ONB
+Tempo médio: 0.000561672
+Número melhorias: 3490
+Melhora média: 281.53
+Execuções: 9729
+
+Melhor solução
+Máquina 1: 28 42 48 52 16 17 8 56 57 49 58 36 43 21 0 25 24 20 37 35 39 15 45 47 23 44 1 14 5 41 53 4 55 34 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 2: 22 50 29 46 31 30 26 27 11 18 12 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Máquina 3: 54 32 3 10 2 9 33 40 38 6 13 19 51 59 7 
+Trocas: 10000000
+10000000 10000000 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Tempo de processamento: 1e+06
+Total de gerações: 1000
+Total de trocas: 667
+Total Flow Time 3660003121
+Soma do completion time 3e+06
